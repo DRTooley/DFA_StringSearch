@@ -158,7 +158,7 @@ int main(int argc, char * argv[]) {
 		cout << "For the substring \"" << search << "\" There were " << SearchCount << " matche(s) found." << endl;
 	}
 	cout << endl << "Generating Test 3: Test of Time" << endl << endl;
-	LargeSearch(ReverseLangMap, LangMap, Language, DFA, 100000);
-	LargeSearch(ReverseLangMap, LangMap, Language, DFA, 200000);
+	LargeSearch(ReverseLangMap, LangMap, Language, DFA, 10000);
+	LargeSearch(ReverseLangMap, LangMap, Language, DFA, 20000);
 		
 }
